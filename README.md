@@ -17,3 +17,13 @@ Create a new site called "slug":
 
 #### Blank Hugo theme
 The [blank](https://github.com/vimux/blank/ "Blank — starter Hugo theme for developers") theme seems like a good starting point for creating a Hugo site that will be subsequently styled via a minimalistic CSS framework. Downloaded the source ZIP and extracted it in `slug/themes` directory as `blank`. 
+#### First page: About
+Try to make a page and a section, since every site needs an *About* page, it is a good place to start. The tutorial does not yet explain how index pages work, so this version of the page will be named `about`:
+
+	hugo new about/about.md
+
+After editing the MD file to add a title and a line of text as content, the site can be served:
+
+	hugo server --theme=blank --buildDrafts
+
+And it appears at `http://localhost:1313/`
