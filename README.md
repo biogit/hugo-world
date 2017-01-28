@@ -6,3 +6,5 @@ Most of the files, including this one, will use [Markdown syntax](https://daring
 Mac mini (Late 2014) with OS X 10.10.5 (Yosemite)
 #### Install Homebrew
 Instructions from [Homebrew](http://brew.sh/ "Homebrew: The missing package manager for macOS") homepage executed without any problems or error messages, `brew update` reported *up-to-date* status.
+#### Install Hugo
+Following instructions to [install Hugo](https://gohugo.io/tutorials/installing-on-mac/ "Hugo: Installing on a Mac"), ran `brew install hugo`, with successful install reported.
