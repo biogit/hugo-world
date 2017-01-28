@@ -27,3 +27,14 @@ After editing the MD file to add a title and a line of text as content, the site
 	hugo server --theme=blank --buildDrafts
 
 And it appears at `http://localhost:1313/`
+
+Looks quite strange though, so let us see the HTML output.
+
+#### Generate site
+For deploying to *GitHub* (eventually), the `baseURL` in `slug/config.toml` is set to a repo:
+
+	https://github.com/biogit/hugo-world/
+
+Now, the first draft version of the site can be generated:
+
+	hugo --theme=blank --buildDrafts
