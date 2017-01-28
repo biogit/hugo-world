@@ -33,7 +33,7 @@ Looks quite strange though, so let us see the HTML output.
 #### Generate site
 For deploying to *GitHub* (eventually), the `baseURL` in `slug/config.toml` is set to a repo:
 
-	https://github.com/biogit/hugo-world/
+	https://github.com/biogit/hugo-kube/
 
 Now, the first draft version of the site can be generated:
 
