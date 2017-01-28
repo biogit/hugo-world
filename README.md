@@ -10,6 +10,10 @@ Instructions from [Homebrew](http://brew.sh/ "Homebrew: The missing package mana
 Following instructions to [install Hugo](https://gohugo.io/tutorials/installing-on-mac/ "Hugo: Installing on a Mac"), ran `brew install hugo`, with successful install reported. Three tests of the Hugo install location and version produced output as described in the instructions.
 ### Minimal Hugo site
 The hope in this project is to produce a functional and responsive website while minimizing dependencies on large external frameworks or other resources that have to be loaded externally. A partial motivation for this approach is to maximize the benefits of static hosting on *Netlify*.
-Create a new site called "slug": `$ hugo new site slug`	
+
+Create a new site called "slug":
+
+	$ hugo new site slug
+
 #### Blank Hugo theme
 The [blank](https://github.com/vimux/blank/ "Blank — starter Hugo theme for developers") theme seems like a good starting point for creating a Hugo site that will be subsequently styled via a minimalistic CSS framework. Downloaded the source ZIP and extracted it in `slug/themes` directory as `blank`. 
